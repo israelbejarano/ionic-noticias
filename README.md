@@ -1,6 +1,6 @@
 # Noticias
 
-This project was generated with Ionic v5. Aplicación que muestra noticias, permite filtrar noticias por tipo, puedes guardar en tus favoritos noticias, puedes compartir noticias y puedes borrar noticias de tus favoritos. También es una PWA que está desplegada en Firebase en la url Xxxxxxxx
+This project was generated with Ionic v5. Aplicación que muestra noticias, permite filtrar noticias por tipo, puedes guardar en tus favoritos noticias, puedes compartir noticias y puedes borrar noticias de tus favoritos. También es una PWA que está desplegada en Firebase en la url https://ionic-noticias-a1de5.web.app/tabs/tab1
 
 ## Development server
 
