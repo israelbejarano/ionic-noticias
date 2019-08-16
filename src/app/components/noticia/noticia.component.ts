@@ -74,11 +74,13 @@ export class NoticiaComponent implements OnInit {
   }
 
   compartirNoticia() {
+    let navegador: any;
+    navegador = window.navigator;
     if (this.platform.is('cordova')) {
       this.socialSharing.share(this.noticia.title, this.noticia.source.name, '', this.noticia.url);
     } else {
-      if (navigator.share) {
-        navigator.share({
+      if (navegador.share) {
+        navegador.share({
             title: this.noticia.title,
             text: this.noticia.description,
             url: this.noticia.url,
